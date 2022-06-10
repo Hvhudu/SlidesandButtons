@@ -1,0 +1,83 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <WrapPanel Margin="0,0,290,0" HorizontalAlignment="Left">
+            <Button x:Name="Red_but" Content="Red" FontSize="20" 
+                Foreground="Red" HorizontalAlignment="Left" 
+                Margin="2.0" VerticalAlignment="Top"  
+                Click="Button_Click"/>
+            <Button x:Name="Blue_but" Content="Blue" FontSize="20" 
+                Foreground="Blue" HorizontalAlignment="Left" 
+                Margin="2.0" VerticalAlignment="Top" 
+                Click="Blue_but_Click"/>
+            <Button x:Name="Navy_but" Content="Navy" FontSize="20" 
+                Foreground="Navy" HorizontalAlignment="Left" 
+                Margin="2.0" VerticalAlignment="Top"  
+                Click="Navy_but_Click"/>
+            <Button x:Name="Aqua_but" Content="Aqua" FontSize="20" 
+                Foreground="Aqua" HorizontalAlignment="Left" 
+                Margin="2.0" VerticalAlignment="Top"  
+                Click="Aqua_but_Click"/>
+            <Button x:Name="Teal_but" Content="Teal" FontSize="20" 
+                Foreground="Teal" HorizontalAlignment="Left" 
+                Margin="2.0" VerticalAlignment="Top" 
+                Click="Teal_but_Click"/>
+            <Button x:Name="Olive_but" Content="Olive" FontSize="20" 
+                Foreground="Olive" HorizontalAlignment="Center" 
+                Margin="2.0" VerticalAlignment="Center" 
+                Click="Olive_but_Click"/>
+            <Button x:Name="Green_but" Content="Green" FontSize="20" 
+                Foreground="Green" HorizontalAlignment="Left" 
+                Margin="2.0" VerticalAlignment="Top"  
+                Click="Green_but_Click"/>
+            <Button x:Name="Lime_but" Content="Lime" FontSize="20" 
+                Foreground="Lime" HorizontalAlignment="Left" 
+                Margin="2.0" VerticalAlignment="Top"  
+                Click="Lime_but_Click"/>
+            <Button x:Name="Yellow_but" Content="Yellow" FontSize="20" 
+                Foreground="Yellow" HorizontalAlignment="Left" 
+                Margin="2.0" VerticalAlignment="Top"  
+                Click="Yellow_but_Click"/>
+            <Button x:Name="Orange_but" Content="Orange" FontSize="20" 
+                Foreground="Orange" HorizontalAlignment="Left" 
+                Margin="2.0" VerticalAlignment="Top"  
+                Click="Orange_but_Click"/>
+            <Button x:Name="Maroon_but" Content="Maroon" FontSize="20" 
+                Foreground="Maroon" HorizontalAlignment="Left" 
+                Margin="2.0" VerticalAlignment="Top"  
+                Click="Maroon_but_Click"/>
+            <Button x:Name="Fuchsia_but" Content="Fuchsia" FontSize="20" 
+                Foreground="Fuchsia" HorizontalAlignment="Left" 
+                Margin="2.0" VerticalAlignment="Top"  
+                Click="Fuchsia_but_Click"/>
+            <Button x:Name="Purple_but" Content="Purple" FontSize="20" 
+                Foreground="Purple" HorizontalAlignment="Left" 
+                Margin="2.0" VerticalAlignment="Top"  
+                Click="Purple_but_Click"/>
+            <Button x:Name="Black_but" Content="Black" FontSize="20" 
+                Foreground="Black" HorizontalAlignment="Left" 
+                Margin="2.0" VerticalAlignment="Top"  
+                Click="Black_but_Click"/>
+            <Button x:Name="Silver_but" Content="Silver" FontSize="20" 
+                Foreground="Silver" HorizontalAlignment="Left" 
+                Margin="2.0" VerticalAlignment="Top"  
+                Click="Silver_but_Click"/>
+            <Button x:Name="Gray_but" Content="Gray" FontSize="20" 
+                Foreground="Gray" HorizontalAlignment="Left" 
+                Margin="2.0" VerticalAlignment="Top"  
+                Click="Gray_but_Click"/>
+            <Button x:Name="White_but" Content="White" FontSize="20" 
+                Foreground="White" HorizontalAlignment="Left" 
+                Margin="2.0" VerticalAlignment="Top"  
+                Click="White_but_Click"/>
+
+        </WrapPanel>
+    </Grid>
+    
+</Window>
